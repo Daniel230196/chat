@@ -4,11 +4,11 @@
 Подключение аккаунта amoCRM к новому каналу online чатов
 */
 // Секрет нашего канала, для формирования подписи
-$secret = 'd93c934d0d97c7a302deb772b9d67e9bb0794e8d';
+$secret = '8db5b2fa2346c7c0815d9c46820ce50bba9c18f4';
 // ID нашего канала
-$channel_id = 'eb89f409-ad04-4c55-8b66-acead5b203ae';
+$channel_id = '9f211a72-33cf-4bac-9c4a-e8bc57d8481e';
 // Идентификатор аккаунта для сервиса online чатов
-$account_id = 'f1fedc81-ab5d-4d7b-a68e-3ccd95f1dacd';
+$account_id = 'd68e3b28-5ecb-4b25-b868-eda78f7f3366';
 // Тело запроса
 $body = json_encode([
     'account_id' => $account_id,
@@ -41,7 +41,7 @@ if ($err) {
 }
 
 /*
-*"scope_id": 'eb89f409-ad04-4c55-8b66-acead5b203ae_f1fedc81-ab5d-4d7b-a68e-3ccd95f1dacd',
+*"scope_id": '9f211a72-33cf-4bac-9c4a-e8bc57d8481e_d68e3b28-5ecb-4b25-b868-eda78f7f3366',
  * /api/v4/users?with=amojo_id
 */
 

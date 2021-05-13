@@ -1,0 +1,13 @@
+{
+    "name": "dkhristolyubov/chats",
+    "require": {
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "authors": [
+        {
+            "name": "Daniel230196",
+            "email": "dan-n-70s@mail.ru"
+        }
+    ]
+}

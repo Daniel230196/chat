@@ -1,13 +1,13 @@
 {
     "result": {
         "0": {
-            "client_uuid": "e816f821-33f7-44b5-8e46-6e2f56c3fccd"
+            "client_uuid": "3766dd6e-355a-400b-90f8-65cd0bf3a3a7"
         },
-        "id": "eb89f409-ad04-4c55-8b66-acead5b203ae",
-        "code": "ru.dann70s",
-        "secret_key": "d93c934d0d97c7a302deb772b9d67e9bb0794e8d",
-        "name": "Testchat",
-        "webhook_url": "https://webhook.site/017cbbac-4f48-4fd6-ad54-67d1dacd3ba9",
+        "id": "9f211a72-33cf-4bac-9c4a-e8bc57d8481e",
+        "code": "ru.techtest",
+        "secret_key": "8db5b2fa2346c7c0815d9c46820ce50bba9c18f4",
+        "name": "TechNeeds",
+        "webhook_url": "https://webhook.site/a368604f-c811-4f69-8122-efd57bd667d1",
         "enabled": true,
         "reason": "",
         "test_mode": true,
@@ -16,21 +16,31 @@
             {
                 "id": "f1fedc81-ab5d-4d7b-a68e-3ccd95f1dacd",
                 "external_id": "amocrm:29302375"
+            },
+            {
+                "id": "d68e3b28-5ecb-4b25-b868-eda78f7f3366",
+                "external_id": "amocrm:29395129"
             }
         ],
-        "contact_email": "dan-n-70s@mail.ru",
-        "created_at": 1614962494,
-        "updated_at": 1614962494,
+        "contact_email": "dkhristolyubov@team.amocrm.com",
+        "created_at": 1620906171,
+        "updated_at": 1620906171,
         "widget_code": "",
         "write_first": true,
-        "webhook_url_v2": "https://webhook.site/017cbbac-4f48-4fd6-ad54-67d1dacd3ba9",
+        "webhook_url_v2": "https://webhook.site/a368604f-c811-4f69-8122-efd57bd667d1",
+        "webhook_url_v3": "",
         "time_window": null,
-        "icon": "https://st1.amocrm.ru/origins_icons/ru.dann70s.svg?1614962494",
+        "bot": {
+            "id": "2cf2216b-fbc2-480f-a6c0-de451ad72997",
+            "name": "TechNeeds",
+            "avatar": "",
+            "is_bot": true
+        },
+        "upload_limits": null,
+        "short_link_disabled": false,
+        "icon": "https://st1.amocrm.ru/origins_icons/ru.techtest.svg?1620906170",
         "webhook_v2": true,
-        "en_enabled": false,
-
+        "en_enabled": false
     },
     "error": null
 }
-
-
